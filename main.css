@@ -1,0 +1,157 @@
+body {
+    font-family: Roboto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+/*link css*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+a:focus {
+    outline: none;
+    border-bottom: 2px solid #fff;
+}
+
+/*header css*/
+.navbar [class='homeLink'] {
+    border-bottom: 2px solid transparent;
+}
+
+
+.navbar {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12.5%;
+    padding-right: 14%;
+    height: 71px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin-left: 30%;
+    display: inline-flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    height: 92px;
+    padding-top: 10%;
+}
+
+/*breadcrumb css*/
+.breadcrumb {
+    display: inline-flex;
+    color: #000;
+    list-style-type: none;
+    margin-right: 20px;
+    width: 10%;
+    padding-left: 12.5%;
+    padding-top: 16px;
+}
+
+.breadcrumb li {
+    padding: 0 20px;
+    border-right: 1px solid #000;
+}
+
+.breadcrumb [class='active'] {
+    border-right: 1px solid transparent;
+}
+
+.breadcrumb a {
+    color: grey;
+}
+
+/*main css*/
+.imageTable {
+    margin: 5% 14% 2% 16%;
+    width: 70%;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 9%;
+    min-height: 9%;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 5%;
+    min-height: 5%;
+    float: left;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-bottom: 5%;
+}
+
+.slider-container {
+    overflow: hidden;
+    background-color: #efa;
+}
+
+.slider-track {
+    display: flex;
+    background-color: crimson;
+    transition: 1.5s;
+    max-width: 100%;
+}
+
+.slider-item{
+    max-height: 100%;
+
+}
+
+.slider-track img{
+    max-width: 100%;
+}
+
+.animation{
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+}
+/*footer css*/
+.footer {
+    background-color: #000;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12%;
+    padding-right: 20%;
+    height: 71px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer ul {
+    list-style-type: none;
+    display: inline-flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: flex-start;
+}

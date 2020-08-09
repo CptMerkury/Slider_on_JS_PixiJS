@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Spin yor image</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"
+            integrity="sha512-J7UHpLx39bpqtP+aWP6yIuXroFk0XPkDQaS9zDthM4TVeaXstWYh556gxsXwwIwpAPSoKqVHW+eqz3B93SpyKg=="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="navbar">
+    <a class="homeLink" href="#"><img class="logo" src="img/image%201.png"></a>
+    <ul>
+        <a href="#">
+            <li>Home</li>
+        </a>
+        <a href="#">
+            <li>About Us</li>
+        </a>
+        <a href="#">
+            <li class="active">Game</li>
+        </a>
+        <a href="#">
+            <li>Login</li>
+        </a>
+    </ul>
+</header>
+<ul class="breadcrumb">
+    <li><a href="#">Home </a></li>
+    <li class="active">Game</li>
+</ul>
+<main>
+    <div class="container">
+        <table class="imageTable">
+            <tr>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+            </tr>
+            <tr>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+                <td class="image"><img src="img/Rectangle%202ver2.png" alt=""></td>
+            </tr>
+        </table>
+        <div class="wrapper">
+            <div class="slider-button-left"><img src="img/image%206.png" alt=""></div>
+            <div class="slider-container">
+                <div class="slider-track">
+                    <img class="slider-item" src="img/image%205.png">
+                    <img class="slider-item" src="img/image%205.png">
+                    <img class="slider-item" src="img/image%205.png">
+                    <img class="slider-item" src="img/image%205.png">
+                    <img class="slider-item" src="img/image%205.png">
+                    <img class="slider-item" src="img/image%205.png">
+                </div>
+            </div>
+            <div class="slider-button-right"><img src="img/image%207.png" alt=""></div>
+        </div>
+    </div>
+    <div class="animation">
+        <div id="spin"></div>
+    </div>
+</main>
+<footer class="footer">
+    <ul>
+        <a href="#">
+            <li>Home</li>
+        </a>
+        <a href="#">
+            <li>About Us</li>
+        </a>
+        <a href="#">
+            <li class="active">Game</li>
+        </a>
+        <a href="#">
+            <li>Login</li>
+        </a>
+    </ul>
+</footer>
+
+
+<script src="slider.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
+
