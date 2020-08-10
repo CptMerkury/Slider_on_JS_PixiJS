@@ -80,15 +80,17 @@ a:focus {
 /*main css*/
 .image-container {
     max-width: 70%;
+    margin: 0 15% 5% 15%;
     min-width: 40%;
-    margin: 5% auto;
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(6, 1fr);
 }
 
 .flag-image {
     max-width: 100%;
     margin-top: -30%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .image-item {
