@@ -79,9 +79,8 @@ a:focus {
 
 /*main css*/
 .image-container {
-    max-width: 70%;
-    margin: 0 15% 5% 15%;
-    min-width: 40%;
+    width: 70%;
+    margin: 0 15% 3% 15%;
     display: inline-grid;
     grid-template-columns: repeat(6, 1fr);
 }
@@ -125,7 +124,7 @@ a:focus {
 .flag-text {
     position: relative;
     top: 35px;
-    left: 25px;
+    left: 27px;
 
 }
 
